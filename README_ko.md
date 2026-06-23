@@ -1,6 +1,6 @@
 # Harness 100 — 실전 에이전트 팀 하네스 컬렉션
 
-> 원본: [revfactory/harness-100](https://github.com/revfactory/harness-100) 포크
+> 원본: [revfactory/harness-100](https://github.com/revfactory/harness-100) 포크 · Cursor 개편: [mdooai](https://www.linkedin.com/in/mdooai/)
 
 일상생활과 업무에 바로 적용할 수 있는 **101가지 에이전트 팀 하네스**를 구축한 프로젝트입니다.
 

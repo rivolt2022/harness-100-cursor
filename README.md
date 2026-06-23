@@ -1,6 +1,6 @@
 # Harness 100
 
-> Forked from [revfactory/harness-100](https://github.com/revfactory/harness-100)
+> Forked from [revfactory/harness-100](https://github.com/revfactory/harness-100) · Cursor adaptation by [mdooai](https://www.linkedin.com/in/mdooai/)
 
 Production-grade agent team harness collection for [Cursor](https://docs.cursor.com/).
 
