@@ -1,17 +1,19 @@
 # Harness 100 — 실전 에이전트 팀 하네스 컬렉션
 
-일상생활과 업무에 바로 적용할 수 있는 **100가지 에이전트 팀 하네스**를 구축한 프로젝트입니다.
+> 원본: [revfactory/harness-100](https://github.com/revfactory/harness-100) 포크
 
-각 하네스는 Claude Code의 에이전트 팀 기능을 활용하여 도메인 전문가 4~5명이 협업하는 프로덕션급 워크플로우를 구성합니다.
+일상생활과 업무에 바로 적용할 수 있는 **101가지 에이전트 팀 하네스**를 구축한 프로젝트입니다.
+
+각 하네스는 Cursor의 에이전트 팀 기능을 활용하여 도메인 전문가 4~5명이 협업하는 프로덕션급 워크플로우를 구성합니다.
 
 ## 프로젝트 규모
 
 | 항목 | 수량 |
 |------|------|
-| 하네스 | 100개 |
-| 에이전트 정의 | 489개 |
-| 스킬 (오케스트레이터 + 에이전트 확장) | 315개 |
-| 총 파일 | 904개 |
+| 하네스 | 101개 |
+| 에이전트 정의 | 494개 |
+| 스킬 (오케스트레이터 + 에이전트 확장) | 319개 |
+| 총 파일 | 914개 |
 
 ## 사용법
 
@@ -19,10 +21,21 @@
 
 ```bash
 # 예시: youtube-production 하네스를 내 프로젝트에 적용
-cp -r 01-youtube-production/.claude/ /path/to/my-project/.claude/
+cp -r 01-youtube-production/.cursor/ /path/to/my-project/.cursor/
 ```
 
-각 하네스 폴더의 `CLAUDE.md`에서 구조와 사용법을 확인할 수 있습니다.
+각 하네스 폴더의 `CURSOR.md`에서 구조와 사용법을 확인할 수 있습니다.
+
+## Cursor 최적화 포인트
+
+이 하네스 세트는 Cursor의 핵심 기능에 맞춰 최적화되었습니다:
+
+- **모드 분리**: 구현은 `Agent`, 대규모 설계/검토는 `Plan` 모드를 권장합니다.
+- **Subagent 위임**: 탐색/쉘/브라우저처럼 컨텍스트가 큰 작업은 Subagent로 분리합니다.
+- **프로젝트 규칙화**: 반복 지침은 `.cursor/rules/*.mdc`로 관리합니다.
+- **최적화 규칙 파일**: `@.cursor/rules/harness-100-cursor-optimization.mdc`는 이 저장소의 Cursor 우선 실행 기준(모드 전략, Subagent 위임, MCP 활용, 워크플로우 품질 기준)을 정의합니다.
+- **MCP 연동 우선**: 외부 시스템/데이터 접근은 MCP 서버 도구/리소스를 우선 사용합니다.
+- **@ 컨텍스트 참조**: 긴 프롬프트 복붙 대신 `@파일`, `@폴더`, `@규칙`으로 문맥을 전달합니다.
 
 ## 하네스 구조
 
@@ -30,8 +43,8 @@ cp -r 01-youtube-production/.claude/ /path/to/my-project/.claude/
 
 ```
 {NN}-{harness-name}/
-└── .claude/
-    ├── CLAUDE.md                          # 프로젝트 개요
+└── .cursor/
+    ├── CURSOR.md                          # 프로젝트 개요
     ├── agents/
     │   ├── {agent-1}.md                   # 전문 에이전트 정의
     │   ├── {agent-2}.md
@@ -51,7 +64,7 @@ cp -r 01-youtube-production/.claude/ /path/to/my-project/.claude/
 
 모든 하네스는 다음 기준을 충족합니다:
 
-- **에이전트 팀 모드** — SendMessage로 직접 통신, 교차 검증
+- **에이전트 팀 모드** — Task 툴(Subagent) 기반 직접 통신, 교차 검증
 - **도메인 전문성** — 각 분야의 실전 프레임워크와 방법론 적용
 - **산출물 템플릿** — 에이전트별 구조화된 산출물 포맷 정의
 - **의존 관계 관리** — 작업 순서와 병렬 실행 명시
@@ -212,6 +225,12 @@ cp -r 01-youtube-production/.claude/ /path/to/my-project/.claude/
 | 98 | [academic-paper](98-academic-paper/) | 학술 논문: 연구설계→실험→분석→집필→투고 | 5명 |
 | 99 | [sustainability-audit](99-sustainability-audit/) | ESG 감사: 환경→사회→거버넌스→보고서 | 5명 |
 | 100 | [ip-portfolio](100-ip-portfolio/) | IP 포트폴리오: 특허→상표→저작권→라이선스전략 | 5명 |
+
+## 카테고리 11: 경진대회 & MLOps (101)
+
+| # | 하네스 | 설명 | 에이전트 |
+|---|--------|------|---------|
+| 101 | [mlops-competition](101-mlops-competition/) | Kaggle/데이콘 대회형 MLOps: 전략→CV→튜닝→제출 운영 | 5명 |
 
 ---
 

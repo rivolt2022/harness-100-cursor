@@ -1,0 +1,34 @@
+# Compliance Checker Harness
+
+Regulatory compliance verification — an agent team collaborates to perform law mapping, status audit, gap analysis, and remediation planning.
+
+## Structure
+
+```
+.cursor/
+├── agents/
+│   ├── law-mapper.md           — Law analyst (identifies applicable regulations, maps clauses, extracts obligations)
+│   ├── status-auditor.md       — Status auditor (investigates organizational status, collects evidence, assesses compliance)
+│   ├── gap-analyst.md          — Gap analyst (compares legal requirements vs. status, calculates risk, derives priorities)
+│   └── remediation-planner.md  — Remediation planner (corrective actions, scheduling, monitoring framework)
+├── skills/
+│   ├── compliance-checker/
+│   │   └── skill.md            — Orchestrator (team coordination, workflow, error handling)
+│   ├── regulation-knowledge-base/
+│   │   └── skill.md            — Industry-specific regulatory law DB (for law-mapper, gap-analyst)
+│   └── audit-checklist-engine/
+│       └── skill.md            — Audit checklist generation engine (for status-auditor)
+└── CURSOR.md                   — This file
+```
+
+## Usage
+
+Use Cursor chat with natural-language requests, invoke `/compliance-checker` manually, or attach `@.cursor/skills/compliance-checker/skill.md` as context before execution.
+## Deliverables
+
+All deliverables are saved in the `_workspace/` directory:
+- `00_input.md` — Organized user input
+- `01_law_mapping.md` — Law mapping report
+- `02_status_audit.md` — Status audit report
+- `03_gap_analysis.md` — Gap analysis report
+- `04_remediation_plan.md` — Remediation plan

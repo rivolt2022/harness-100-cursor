@@ -1,0 +1,38 @@
+# Security Audit Harness
+
+An agent team harness for performing security audits covering vulnerability scanning, code analysis, penetration test reporting, and remediation recommendations.
+
+## Structure
+
+```
+.cursor/
+├── agents/
+│   ├── vulnerability-scanner.md  — Vulnerability scanner (CVE, dependencies, misconfigurations)
+│   ├── code-analyst.md           — Code security analysis (SAST, secure coding, pattern detection)
+│   ├── pentest-reporter.md       — Penetration test reporting (attack scenarios, PoC, impact analysis)
+│   ├── security-consultant.md    — Security consultant (remediation recommendations, roadmap, framework mapping)
+│   └── audit-reviewer.md         — Audit reviewer (cross-validation, risk level adjustment, final report)
+├── skills/
+│   ├── security-audit/
+│   │   └── skill.md              — Orchestrator (team coordination, workflow, error handling)
+│   ├── owasp-testing-guide/
+│   │   └── skill.md              — OWASP Top 10 security testing guide
+│   ├── cve-analysis/
+│   │   └── skill.md              — CVE analysis and dependency vulnerability management guide
+│   └── threat-modeling/
+│       └── skill.md              — Threat modeling methodology guide
+└── CURSOR.md                     — This file
+```
+
+## Usage
+
+Use Cursor chat with natural-language requests, invoke `/security-audit` manually, or attach `@.cursor/skills/security-audit/skill.md` as context before execution.
+## Deliverables
+
+All deliverables are stored in the `_workspace/` directory:
+- `00_input.md` — Audit scope and organized user input
+- `01_vulnerability_scan.md` — Vulnerability scan results
+- `02_code_analysis.md` — Code security analysis report
+- `03_pentest_report.md` — Penetration test scenario report
+- `04_remediation_plan.md` — Remediation recommendations and roadmap
+- `05_audit_report.md` — Final audit report

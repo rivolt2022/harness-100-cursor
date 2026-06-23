@@ -1,0 +1,27 @@
+# ADR Writer Harness
+
+아키텍처 결정 기록(ADR) 작성 에이전트 팀 하네스.
+
+## 구조
+
+```
+.cursor/
+├── agents/
+│   ├── context-analyst.md
+│   ├── alternative-researcher.md
+│   ├── tradeoff-evaluator.md
+│   ├── adr-author.md
+│   └── impact-tracker.md
+├── skills/
+│   ├── adr-writer/
+│   │   └── skill.md              — 오케스트레이터
+│   ├── quality-attribute-analyzer/
+│   │   └── skill.md              — 품질 속성 분석 (CAP 정리, 가중 평가, ATAM)
+│   └── madr-template-engine/
+│       └── skill.md              — MADR 포맷 (ADR 상태 관리, 번호 체계, 의존성 그래프)
+└── CURSOR.md                     — 이 파일
+```
+
+## 사용법
+
+Cursor 채팅에서 자연어 요청으로 실행하거나, `/adr-writer`로 수동 호출하거나, `@.cursor/skills/adr-writer/skill.md`를 컨텍스트로 첨부해 실행한다.

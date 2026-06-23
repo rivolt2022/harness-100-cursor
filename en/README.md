@@ -1,28 +1,41 @@
 # Harness 100 — Production-Grade Agent Team Harness Collection
 
-**100 ready-to-use agent team harnesses** for everyday life and work, built for Claude Code.
+> Forked from [revfactory/harness-100](https://github.com/revfactory/harness-100)
 
-Each harness orchestrates 4-5 domain-expert agents collaborating via SendMessage in production-grade workflows.
+**101 ready-to-use agent team harnesses** for everyday life and work, built for Cursor.
+
+Each harness orchestrates 4-5 domain-expert agents collaborating via Task tool (Subagent) in production-grade workflows.
 
 ## Project Scale
 
 | Item | Count |
 |------|-------|
-| Harnesses | 100 |
-| Agent definitions | 489 |
-| Skills (orchestrator + agent-extending) | 315 |
-| Total files | 904 |
+| Harnesses | 101 |
+| Agent definitions | 494 |
+| Skills (orchestrator + agent-extending) | 319 |
+| Total files | 914 |
 
 ## Quick Start
 
-Copy any harness folder's `.claude/` directory into your project:
+Copy any harness folder's `.cursor/` directory into your project:
 
 ```bash
 # Example: apply the youtube-production harness to your project
-cp -r 01-youtube-production/.claude/ /path/to/my-project/.claude/
+cp -r 01-youtube-production/.cursor/ /path/to/my-project/.cursor/
 ```
 
-Each harness folder contains a `CLAUDE.md` with structure and usage details.
+Each harness folder contains a `CURSOR.md` with structure and usage details.
+
+## Cursor Optimization
+
+This harness set is optimized for Cursor's core capabilities:
+
+- **Agent vs Plan modes**: implement in `Agent`, design and review large changes in `Plan`.
+- **Subagent delegation**: offload exploration, shell-heavy tasks, and browser workflows to subagents.
+- **Project Rules**: manage reusable behavior with `.cursor/rules/*.mdc`.
+- **Optimization rule file**: `@.cursor/rules/harness-100-cursor-optimization.mdc` documents this repository's Cursor-first execution standard (mode strategy, subagent delegation, MCP usage, and orchestration quality bar).
+- **MCP integration**: connect external tools/data through MCP servers when available.
+- **@ references**: prefer `@file`, `@folder`, and `@rule` context attachment over long pasted prompts.
 
 ## Harness Structure
 
@@ -30,8 +43,8 @@ Every harness follows a consistent structure:
 
 ```
 {NN}-{harness-name}/
-└── .claude/
-    ├── CLAUDE.md                          # Project overview
+└── .cursor/
+    ├── CURSOR.md                          # Project overview
     ├── agents/
     │   ├── {agent-1}.md                   # Specialist agent definition
     │   ├── {agent-2}.md
@@ -51,7 +64,7 @@ Every harness follows a consistent structure:
 
 Every harness meets these criteria:
 
-- **Agent Team Mode** — Direct communication via SendMessage, cross-validation
+- **Agent Team Mode** — Direct communication via Task tool (Subagent), cross-validation
 - **Domain Expertise** — Real-world frameworks and methodologies embedded
 - **Output Templates** — Structured output formats per agent
 - **Dependency Management** — Task ordering with parallel execution
@@ -212,6 +225,12 @@ Every harness meets these criteria:
 | 98 | [academic-paper](98-academic-paper/) | Academic paper: research design, experiment, analysis, writing | 5 |
 | 99 | [sustainability-audit](99-sustainability-audit/) | ESG audit: environment, social, governance, report | 5 |
 | 100 | [ip-portfolio](100-ip-portfolio/) | IP portfolio: patent, trademark, copyright, licensing strategy | 5 |
+
+## Category 11: Competition & MLOps (101)
+
+| # | Harness | Description | Agents |
+|---|---------|-------------|--------|
+| 101 | [mlops-competition](101-mlops-competition/) | Competition-grade MLOps for Kaggle/Dacon: strategy, CV, tuning, submissions | 5 |
 
 ---
 

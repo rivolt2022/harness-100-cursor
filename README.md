@@ -1,8 +1,10 @@
 # Harness 100
 
-Production-grade agent team harness collection for [Claude Code](https://docs.anthropic.com/en/docs/claude-code).
+> Forked from [revfactory/harness-100](https://github.com/revfactory/harness-100)
 
-100 ready-to-use harnesses across 10 domains — each with 4-5 specialist agents, an orchestrator skill, and 2-3 agent-extending skills. Available in **Korean** and **English**.
+Production-grade agent team harness collection for [Cursor](https://docs.cursor.com/).
+
+101 ready-to-use harnesses across 11 domains — each with 4-5 specialist agents, an orchestrator skill, and 2-3 agent-extending skills. Available in **Korean** and **English**.
 
 > **[English (en/)](en/)** | **[Korean (ko/)](ko/)**
 
@@ -10,20 +12,31 @@ Production-grade agent team harness collection for [Claude Code](https://docs.an
 
 | | ko/ | en/ | Total |
 |---|-----|-----|-------|
-| Harnesses | 100 | 100 | 200 |
-| Agent definitions | 489 | 489 | 978 |
-| Skills | 315 | 315 | 630 |
-| Total .md files | 904 | 904 | **1,808** |
+| Harnesses | 101 | 101 | 202 |
+| Agent definitions | 494 | 494 | 988 |
+| Skills | 319 | 319 | 638 |
+| Total .md files | 914 | 914 | **1,828** |
 
 ## Quick Start
 
 ```bash
 # Copy any harness into your project
-cp -r ko/01-youtube-production/.claude/ /path/to/my-project/.claude/
+cp -r ko/01-youtube-production/.cursor/ /path/to/my-project/.cursor/
 
 # Or use the English version
-cp -r en/01-youtube-production/.claude/ /path/to/my-project/.claude/
+cp -r en/01-youtube-production/.cursor/ /path/to/my-project/.cursor/
 ```
+
+## Cursor Optimization
+
+This repository is tuned to align with Cursor-native workflows:
+
+- **Mode selection**: Use `Agent` for implementation and `Plan` for larger multi-file changes.
+- **Subagents**: Delegate context-heavy work (exploration/shell/browser) to subagents for cleaner parent context and parallel throughput.
+- **Rules-first guidance**: Keep project rules in `.cursor/rules/*.mdc` and use `AGENTS.md` only for simple markdown-based instructions.
+- **Project optimization rule**: `@.cursor/rules/harness-100-cursor-optimization.mdc` defines the repository's Cursor-first orchestration standard (modes, subagents, MCP, and workflow structure).
+- **MCP-ready orchestration**: Prefer MCP tools/resources when available for external system reads and automation.
+- **@ context references**: Use `@file`, `@folder`, and `@rule` to inject precise context instead of pasting long instructions.
 
 ## Categories
 
@@ -39,13 +52,14 @@ cp -r en/01-youtube-production/.claude/ /path/to/my-project/.claude/
 | 8 | Communication & Docs | 81-88 | Technical writing, SOP, proposals, crisis comms |
 | 9 | Operations & Process | 89-95 | Hiring, onboarding, audit, procurement |
 | 10 | Specialized Domains | 96-100 | Real estate, e-commerce, ESG, IP portfolio |
+| 11 | Competition & MLOps | 101 | Kaggle/Dacon competition strategy, CV leakage guard, submission ops |
 
 ## Harness Architecture
 
 ```
 {NN}-{harness-name}/
-└── .claude/
-    ├── CLAUDE.md                    # Project overview
+└── .cursor/
+    ├── CURSOR.md                    # Project overview
     ├── agents/
     │   ├── {specialist-1}.md        # Domain expert agent
     │   ├── {specialist-2}.md
@@ -73,7 +87,7 @@ cp -r en/01-youtube-production/.claude/ /path/to/my-project/.claude/
 
 Every harness includes:
 
-- **Agent Team Mode** — SendMessage direct communication, cross-validation
+- **Agent Team Mode** — Subagent collaboration via `Task`, with cross-validation
 - **Domain Expertise** — Real frameworks (OWASP, Bloom's Taxonomy, Porter's 5 Forces, DCF, etc.)
 - **Structured Outputs** — Domain-specific templates per agent
 - **Dependency DAG** — Task ordering with parallel execution

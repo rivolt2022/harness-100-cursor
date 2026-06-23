@@ -1,0 +1,54 @@
+---
+description: Harness 100 Cursor-first orchestration and execution standards
+alwaysApply: false
+---
+
+# Harness 100 Cursor Optimization Rule
+
+Apply this rule when creating or updating harness workflows in this repository.
+
+## Core policy
+
+- Use Cursor-native patterns first (`Agent`, `Plan`, `Task`, Subagents, MCP).
+- Keep orchestration explicit: phases, dependencies, and parallel branches.
+- Prefer reusable instructions in rules and harness docs over one-off prompt text.
+
+## Mode strategy
+
+- Use `Plan` mode for large, multi-file, or architecture-level changes.
+- Use `Agent` mode for implementation after the plan is validated.
+- Keep tasks scoped so each mode switch is intentional and reviewable.
+
+## Subagent strategy
+
+- Delegate context-heavy work (codebase exploration, shell-heavy execution, browser workflows) to subagents.
+- Run independent subagent workstreams in parallel when outputs do not depend on each other.
+- Return concise synthesized results to parent flow (avoid raw log dumping).
+
+## Rules and context strategy
+
+- Store project behavior in `.cursor/rules/*.mdc`.
+- Use `@` references (`@file`, `@folder`, `@rule`) to inject context instead of long inline prompt duplication.
+- Keep rules focused and composable; split large guidance into multiple rules.
+
+## MCP strategy
+
+- Prefer MCP tools/resources when external systems or live data are involved.
+- Document required MCP dependencies and fallback behavior when MCP is unavailable.
+- Keep deterministic output formats for MCP-backed tasks.
+
+## Harness authoring standards
+
+- Every orchestrator skill should define:
+  - phase-by-phase execution,
+  - dependency DAG,
+  - parallelizable branches,
+  - failure and retry handling,
+  - reduced-scope execution modes.
+- Reviewer agents should validate cross-file consistency and actionable fixes.
+
+## Anti-patterns
+
+- Do not rely on Claude-specific terminology or file layouts.
+- Do not require monolithic prompts when rules or subagents can modularize work.
+- Do not mix unrelated objectives into one unscoped execution phase.
