@@ -2,7 +2,7 @@
 
 > Forked from [revfactory/harness-100](https://github.com/revfactory/harness-100)
 
-**101 ready-to-use agent team harnesses** for everyday life and work, built for Cursor.
+**102 ready-to-use agent team harnesses** for everyday life and work, built for Cursor.
 
 Each harness orchestrates 4-5 domain-expert agents collaborating via Task tool (Subagent) in production-grade workflows.
 
@@ -10,7 +10,7 @@ Each harness orchestrates 4-5 domain-expert agents collaborating via Task tool (
 
 | Item | Count |
 |------|-------|
-| Harnesses | 101 |
+| Harnesses | 102 |
 | Agent definitions | 494 |
 | Skills (orchestrator + agent-extending) | 319 |
 | Total files | 914 |
@@ -231,6 +231,12 @@ Every harness meets these criteria:
 | # | Harness | Description | Agents |
 |---|---------|-------------|--------|
 | 101 | [mlops-competition](101-mlops-competition/) | Competition-grade MLOps for Kaggle/Dacon: strategy, CV, tuning, submissions | 5 |
+
+## Category 12: Browser Extensions (102)
+
+| # | Harness | Description | Agents |
+|---|---------|-------------|--------|
+| 102 | [chrome-extension](102-chrome-extension/) | Manifest V3 Chrome extension: architecture, background, UI, content, store | 5 |
 
 ---
 

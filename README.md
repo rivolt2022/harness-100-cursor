@@ -4,7 +4,7 @@
 
 Production-grade agent team harness collection for [Cursor](https://docs.cursor.com/).
 
-101 ready-to-use harnesses across 11 domains — each with 4-5 specialist agents, an orchestrator skill, and 2-3 agent-extending skills. Available in **Korean** and **English**.
+102 ready-to-use harnesses across 12 domains — each with 4-5 specialist agents, an orchestrator skill, and 2-3 agent-extending skills. Available in **Korean** and **English**.
 
 > **[English (en/)](en/)** | **[Korean (ko/)](ko/)**
 
@@ -12,10 +12,10 @@ Production-grade agent team harness collection for [Cursor](https://docs.cursor.
 
 | | ko/ | en/ | Total |
 |---|-----|-----|-------|
-| Harnesses | 101 | 101 | 202 |
-| Agent definitions | 494 | 494 | 988 |
-| Skills | 319 | 319 | 638 |
-| Total .md files | 914 | 914 | **1,828** |
+| Harnesses | 102 | 102 | 204 |
+| Agent definitions | 499 | 499 | 998 |
+| Skills | 327 | 327 | 654 |
+| Total .md files | 940 | 939 | **1,879** |
 
 ## Quick Start
 
@@ -53,6 +53,7 @@ This repository is tuned to align with Cursor-native workflows:
 | 9 | Operations & Process | 89-95 | Hiring, onboarding, audit, procurement |
 | 10 | Specialized Domains | 96-100 | Real estate, e-commerce, ESG, IP portfolio |
 | 11 | Competition & MLOps | 101 | Kaggle/Dacon competition strategy, CV leakage guard, submission ops |
+| 12 | Browser Extensions | 102 | Manifest V3 architecture, messaging, security, Chrome Web Store publishing |
 
 ## Harness Architecture
 

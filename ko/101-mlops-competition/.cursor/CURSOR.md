@@ -1,40 +1,64 @@
 # MLOps Competition Harness
 
-Kaggle/데이콘 같은 데이터 경진대회를 포함해, 문제 정의→피처/모델링→검증→제출→재현 가능한 운영까지 에이전트 팀이 협업하는 하네스.
+Kaggle/데이콘 같은 데이터 경진대회를 **CV 신뢰 → 재현 가능 파이프라인 → 전략적 제출** 순으로 운영하는 에이전트 팀 하네스.
+
+## 핵심 원칙
+
+1. **CV가 ground truth** — CV↔public LB 상관 r ≥ 0.85 목표
+2. **베이스라인 즉시 제출** — CV-LB 괴리 조기 발견
+3. **전처리는 fold 내부 fit** — 누수 차단
+4. **Dual final submission** — CV champion + public peak
+5. **데이콘** — Private Score 복원 가능 코드 패키지
 
 ## 구조
 
 ```
 .cursor/
 ├── agents/
-│   ├── competition-strategist.md     — 대회 전략가 (문제 구조화, 점수 전략, 시간/리스크 관리)
-│   ├── feature-engineer.md           — 피처 엔지니어 (전처리, 피처 생성, 누수 방지)
-│   ├── training-optimizer.md         — 학습 최적화 엔지니어 (모델링, 튜닝, 앙상블)
-│   ├── validation-submission-analyst.md — 검증/제출 분석가 (CV 설계, 제출 전략, LB 변동 대응)
-│   └── mlops-reviewer.md             — MLOps 리뷰어 (재현성, 운영성, 최종 QA)
+│   ├── competition-strategist.md     — 대회 전략·일정·제출 슬롯
+│   ├── feature-engineer.md           — fold-safe 피처 파이프라인
+│   ├── training-optimizer.md         — 베이스라인·튜닝·앙상블
+│   ├── validation-submission-analyst.md — CV·LB 정합성·제출 검증
+│   └── mlops-reviewer.md             — 재현성·규칙·Go/No-Go
 ├── skills/
-│   ├── mlops-competition/
-│   │   └── skill.md                  — 오케스트레이터
-│   ├── leaderboard-strategy/
-│   │   └── skill.md                  — 리더보드 전략 (public/private split, shake-up 대응)
-│   ├── cv-leakage-guard/
-│   │   └── skill.md                  — CV/데이터 누수 방지 가이드
-│   └── experiment-tracking-blueprint/
-│       └── skill.md                  — 실험 추적/재현성 템플릿
-└── CURSOR.md                         — 이 파일
+│   ├── mlops-competition/skill.md    — 오케스트레이터
+│   ├── leaderboard-strategy/skill.md — public/private·shake-up
+│   ├── cv-leakage-guard/skill.md     — split·누수·adversarial
+│   ├── experiment-tracking-blueprint/skill.md — MLflow/DVC·제출 매핑
+│   ├── ensemble-strategy/skill.md    — blend·stack·다양성
+│   └── platform-playbook/skill.md    — Kaggle vs 데이콘 규칙
+└── CURSOR.md
 ```
 
 ## 사용법
 
-Cursor 채팅에서 자연어 요청으로 실행하거나, `/mlops-competition`로 수동 호출하거나, `@.cursor/skills/mlops-competition/skill.md`를 컨텍스트로 첨부해 실행한다.
+Cursor 채팅에서 자연어 요청, `/mlops-competition`, 또는 `@.cursor/skills/mlops-competition/skill.md` 첨부.
+
+**예시 프롬프트**
+- "데이콘 탭ular 분류 대회 전략이랑 CV 설계해줘"
+- "CV 0.9인데 LB 0.78 — 누수 점검해줘"
+- "LightGBM+XGBoost 앙상블이랑 제출 검증 스크립트 만들어줘"
+- "데이콘 코드 제출용 파이프라인 정리해줘"
 
 ## 산출물
 
-모든 산출물은 `_workspace/` 디렉토리에 저장된다:
-- `00_input.md` — 문제/데이터/제약 입력 정리
-- `01_competition_plan.md` — 대회 전략 및 실행 계획
-- `02_feature_pipeline.md` — 피처/전처리 파이프라인
-- `03_training_plan.md` — 모델/튜닝/앙상블 계획
-- `04_validation_submission.md` — CV/제출 전략 및 리더보드 분석
-- `05_mlops_review.md` — 재현성/운영성 리뷰
-- `submission/` — 제출 파일 및 생성 스크립트
+`_workspace/`:
+- `00_input.md` — 대회·데이터·제약
+- `01_competition_plan.md` — 전략·제출 캘린더·리스크
+- `02_feature_pipeline.md` — EDA·fold-safe 파이프라인
+- `03_training_plan.md` — 모델·튜닝·앙상블
+- `04_validation_submission.md` — CV-LB·제출 검증
+- `05_mlops_review.md` — 최종 QA·Go/No-Go
+- `pipeline_code/` — 재현 스크립트
+- `submission/` — CSV·검증 스크립트
+- `experiments/` — run 로그
+
+## 관련 스킬 빠른 참조
+
+| 상황 | 스킬 |
+|------|------|
+| shake-up / 제출 슬롯 | `leaderboard-strategy` |
+| 누수·GroupKFold | `cv-leakage-guard` |
+| MLflow·DVC | `experiment-tracking-blueprint` |
+| 앙상블 | `ensemble-strategy` |
+| 데이콘 코드 제출 | `platform-playbook` |
