@@ -26,7 +26,8 @@ A harness where an agent team collaborates to produce e-book publishing delivera
 
 ## Usage
 
-Use Cursor chat with natural-language requests, invoke `/book-publishing` manually, or attach `@.cursor/skills/book-publishing/skill.md` as context before execution.
+In Cursor chat, request with `@book-publishing`.
+
 ## Deliverables
 
 All deliverables are saved in the `_workspace/` directory:

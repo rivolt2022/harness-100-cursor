@@ -24,7 +24,7 @@ event basis·operations: concept→venue→program→promotion→execution→com
 
 ## usage
 
-`/event-organizer` skill , "event basisplease do" specialistannual request.
+In Cursor chat, request with `@event-organizer`.
 
 ## deliverable
 

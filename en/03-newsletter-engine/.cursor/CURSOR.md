@@ -26,7 +26,8 @@ A harness where an agent team collaborates to produce newsletter content through
 
 ## Usage
 
-Use Cursor chat with natural-language requests, invoke `/newsletter-engine` manually, or attach `@.cursor/skills/newsletter-engine/skill.md` as context before execution.
+In Cursor chat, request with `@newsletter-engine`.
+
 ## Deliverables
 
 All deliverables are saved in the `_workspace/` directory:

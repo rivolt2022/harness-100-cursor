@@ -24,7 +24,7 @@ itemsperson financialmanagement incomeexpenseanalysis→budgetdesign→investmen
 
 ## usage
 
-`/personal-finance` skill , "financial management " specialistannual request.
+In Cursor chat, request with `@personal-finance`.
 
 ## deliverable
 

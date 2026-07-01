@@ -24,7 +24,7 @@ work report datacollection→analysis→visualization→→summary A harness whe
 
 ## usage
 
-`/report-generator` skill , "work report create it" specialistannual request.
+In Cursor chat, request with `@report-generator`.
 
 ## deliverable
 

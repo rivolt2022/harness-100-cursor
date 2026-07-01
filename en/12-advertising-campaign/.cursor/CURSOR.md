@@ -24,7 +24,8 @@ A harness where an agent team collaborates to design advertising campaigns: targ
 
 ## Usage
 
-Use Cursor chat with natural-language requests, invoke `/advertising-campaign` manually, or attach `@.cursor/skills/advertising-campaign/skill.md` as context before execution.
+In Cursor chat, request with `@advertising-campaign`.
+
 ## Deliverables
 
 All deliverables are saved in the `_workspace/` directory:

@@ -24,7 +24,8 @@ A harness where an agent team collaborates to perform the full data analysis lif
 
 ## Usage
 
-Use Cursor chat with natural-language requests, invoke `/data-analysis` manually, or attach `@.cursor/skills/data-analysis/skill.md` as context before execution.
+In Cursor chat, request with `@data-analysis`.
+
 ## Outputs
 
 All outputs are stored in the `_workspace/` directory:

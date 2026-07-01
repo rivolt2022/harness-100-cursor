@@ -24,4 +24,4 @@ A patent application drafting agent team harness.
 
 ## Usage
 
-Use Cursor chat with natural-language requests, invoke `/patent-drafter` manually, or attach `@.cursor/skills/patent-drafter/skill.md` as context before execution.
+In Cursor chat, request with `@patent-drafter`.

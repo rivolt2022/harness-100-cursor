@@ -24,7 +24,8 @@ Chatbot construction: a harness where an agent team collaborates to perform inte
 
 ## Usage
 
-Use Cursor chat with natural-language requests, invoke `/chatbot-builder` manually, or attach `@.cursor/skills/chatbot-builder/skill.md` as context before execution.
+In Cursor chat, request with `@chatbot-builder`.
+
 ## Deliverables
 
 All deliverables are stored in the `_workspace/` directory:

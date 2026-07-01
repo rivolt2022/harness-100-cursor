@@ -24,7 +24,8 @@ A harness where an agent team collaborates to generate an organizational strateg
 
 ## Usage
 
-Use Cursor chat with natural-language requests, invoke `/strategy-framework` manually, or attach `@.cursor/skills/strategy-framework/skill.md` as context before execution.
+In Cursor chat, request with `@strategy-framework`.
+
 ## Deliverables
 
 All deliverables are saved in the `_workspace/` directory:

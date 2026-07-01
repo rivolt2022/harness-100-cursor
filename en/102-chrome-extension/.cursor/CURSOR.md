@@ -32,13 +32,12 @@ Agent-team harness for Manifest V3 Chrome extensions: **architecture → backgro
 
 ## Usage
 
-Natural language, `/chrome-extension`, or `@.cursor/skills/chrome-extension/skill.md`
+In Cursor chat, request with `@chrome-extension`.
 
 **Examples**
 - "Build an MV3 extension with a dark-mode toggle on YouTube pages"
 - "Migrate MV2 background page to MV3"
 - "Web Store review rejected — write host_permissions justification"
-
 ## Deliverables
 
 - `_workspace/00_input.md` ~ `05_extension_review.md`

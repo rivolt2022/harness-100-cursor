@@ -26,7 +26,8 @@ A harness where an agent team collaborates to design game story, quests, dialogu
 
 ## Usage
 
-Use Cursor chat with natural-language requests, invoke `/game-narrative` manually, or attach `@.cursor/skills/game-narrative/skill.md` as context before execution.
+In Cursor chat, request with `@game-narrative`.
+
 ## Deliverables
 
 All deliverables are saved in the `_workspace/` directory:

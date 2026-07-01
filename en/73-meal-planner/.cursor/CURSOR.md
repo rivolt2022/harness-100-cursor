@@ -23,4 +23,4 @@ A meal planning agent team harness.
 
 ## Usage
 
-Use Cursor chat with natural-language requests, invoke `/meal-planner` manually, or attach `@.cursor/skills/meal-planner/skill.md` as context before execution.
+In Cursor chat, request with `@meal-planner`.

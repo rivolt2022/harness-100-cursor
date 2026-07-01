@@ -32,14 +32,13 @@ Agent-team harness for Kaggle/Dacon competitions: **trustworthy CV → reproduci
 
 ## Usage
 
-Natural language in Cursor chat, `/mlops-competition`, or `@.cursor/skills/mlops-competition/skill.md`.
+In Cursor chat, request with `@mlops-competition`.
 
 **Example prompts**
 - "Design strategy and CV for a Dacon tabular classification comp"
 - "CV 0.9 but LB 0.78 — audit for leakage"
 - "Build LightGBM+XGBoost ensemble and submission validator"
 - "Package pipeline for Dacon code submission"
-
 ## Artifacts (`_workspace/`)
 
 - `00_input.md` — competition, data, constraints

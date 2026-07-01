@@ -23,4 +23,4 @@ A regulatory filing and permit application agent team harness.
 
 ## Usage
 
-Use Cursor chat with natural-language requests, invoke `/regulatory-filing` manually, or attach `@.cursor/skills/regulatory-filing/skill.md` as context before execution.
+In Cursor chat, request with `@regulatory-filing`.

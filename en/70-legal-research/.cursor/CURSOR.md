@@ -23,4 +23,4 @@ A legal research agent team harness.
 
 ## Usage
 
-Use Cursor chat with natural-language requests, invoke `/legal-research` manually, or attach `@.cursor/skills/legal-research/skill.md` as context before execution.
+In Cursor chat, request with `@legal-research`.

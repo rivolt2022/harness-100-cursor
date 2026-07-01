@@ -24,7 +24,8 @@ An agent team harness for designing, decomposing, communicating, and monitoring 
 
 ## Usage
 
-Use Cursor chat with natural-language requests, invoke `/microservice-designer` manually, or attach `@.cursor/skills/microservice-designer/skill.md` as context before execution.
+In Cursor chat, request with `@microservice-designer`.
+
 ## Deliverables
 
 All deliverables are stored in the `_workspace/` directory:

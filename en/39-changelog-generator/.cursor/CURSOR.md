@@ -24,7 +24,8 @@ Changelog generation: a harness where an agent team collaborates to perform comm
 
 ## Usage
 
-Use Cursor chat with natural-language requests, invoke `/changelog-generator` manually, or attach `@.cursor/skills/changelog-generator/skill.md` as context before execution.
+In Cursor chat, request with `@changelog-generator`.
+
 ## Outputs
 
 All outputs are stored in the `_workspace/` directory:

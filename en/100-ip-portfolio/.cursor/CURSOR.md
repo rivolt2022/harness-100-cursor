@@ -24,7 +24,8 @@ An intellectual property portfolio management harness. An agent team collaborate
 
 ## Usage
 
-Use Cursor chat with natural-language requests, invoke `/ip-portfolio` manually, or attach `@.cursor/skills/ip-portfolio/skill.md` as context before execution.
+In Cursor chat, request with `@ip-portfolio`.
+
 ## Outputs
 
 All outputs are saved to the `_workspace/` directory:

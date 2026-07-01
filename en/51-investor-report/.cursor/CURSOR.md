@@ -26,7 +26,8 @@ Investor report generation: an agent team collaborates to produce financial perf
 
 ## Usage
 
-Use Cursor chat with natural-language requests, invoke `/investor-report` manually, or attach `@.cursor/skills/investor-report/skill.md` as context before execution.
+In Cursor chat, request with `@investor-report`.
+
 ## Deliverables
 
 All deliverables are saved in the `_workspace/` directory:

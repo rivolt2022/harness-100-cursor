@@ -24,4 +24,4 @@ A personal branding agent team harness.
 
 ## Usage
 
-Use Cursor chat with natural-language requests, invoke `/personal-branding` manually, or attach `@.cursor/skills/personal-branding/skill.md` as context before execution.
+In Cursor chat, request with `@personal-branding`.

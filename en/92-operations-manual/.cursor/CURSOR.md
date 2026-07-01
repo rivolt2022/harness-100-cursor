@@ -24,7 +24,8 @@ An automated operations manual generation harness. An agent team collaborates to
 
 ## Usage
 
-Use Cursor chat with natural-language requests, invoke `/operations-manual` manually, or attach `@.cursor/skills/operations-manual/skill.md` as context before execution.
+In Cursor chat, request with `@operations-manual`.
+
 ## Outputs
 
 All outputs are saved to the `_workspace/` directory:

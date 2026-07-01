@@ -24,7 +24,7 @@
 
 ## usage
 
-`/public-speaking` skill , "speechdocument " specialistannual request.
+In Cursor chat, request with `@public-speaking`.
 
 ## deliverable
 

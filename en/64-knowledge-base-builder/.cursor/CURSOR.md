@@ -24,4 +24,4 @@ An agent team harness for building organizational knowledge management systems.
 
 ## Usage
 
-Use Cursor chat with natural-language requests, invoke `/knowledge-base-builder` manually, or attach `@.cursor/skills/knowledge-base-builder/skill.md` as context before execution.
+In Cursor chat, request with `@knowledge-base-builder`.

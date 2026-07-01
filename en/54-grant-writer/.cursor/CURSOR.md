@@ -24,7 +24,8 @@ A harness where an agent team collaborates on grant and funding applications: an
 
 ## Usage
 
-Use Cursor chat with natural-language requests, invoke `/grant-writer` manually, or attach `@.cursor/skills/grant-writer/skill.md` as context before execution.
+In Cursor chat, request with `@grant-writer`.
+
 ## Deliverables
 
 All deliverables are saved in the `_workspace/` directory:

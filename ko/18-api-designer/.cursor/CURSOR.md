@@ -24,7 +24,8 @@ REST/GraphQL API의 설계·문서화·목업·테스트를 에이전트 팀이 
 
 ## 사용법
 
-Cursor 채팅에서 자연어 요청으로 실행하거나, `/api-designer`로 수동 호출하거나, `@.cursor/skills/api-designer/skill.md`를 컨텍스트로 첨부해 실행한다.
+Cursor 채팅창에 `@api-designer`으로 요청한다.
+
 ## 산출물
 
 모든 산출물은 `_workspace/` 디렉토리에 저장된다:

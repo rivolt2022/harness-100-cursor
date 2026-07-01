@@ -24,7 +24,8 @@ An agent team harness for debate simulation.
 
 ## Usage
 
-Use Cursor chat with natural-language requests, invoke `/debate-simulator` manually, or attach `@.cursor/skills/debate-simulator/skill.md` as context before execution.
+In Cursor chat, request with `@debate-simulator`.
+
 ## Deliverables
 
 All deliverables are saved in the `_workspace/` directory:

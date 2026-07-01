@@ -24,7 +24,8 @@ A harness where an agent team collaborates to design, document, mock, and test R
 
 ## Usage
 
-Use Cursor chat with natural-language requests, invoke `/api-designer` manually, or attach `@.cursor/skills/api-designer/skill.md` as context before execution.
+In Cursor chat, request with `@api-designer`.
+
 ## Artifacts
 
 All artifacts are saved in the `_workspace/` directory:

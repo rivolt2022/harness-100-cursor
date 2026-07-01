@@ -24,7 +24,8 @@ A customer/employee feedback analysis harness. An agent team collaborates to han
 
 ## Usage
 
-Use Cursor chat with natural-language requests, invoke `/feedback-analyzer` manually, or attach `@.cursor/skills/feedback-analyzer/skill.md` as context before execution.
+In Cursor chat, request with `@feedback-analyzer`.
+
 ## Outputs
 
 All outputs are saved to the `_workspace/` directory:

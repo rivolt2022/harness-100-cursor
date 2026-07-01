@@ -23,7 +23,8 @@ A harness where an agent team collaborates to generate destination analysis, iti
 
 ## Usage
 
-Use Cursor chat with natural-language requests, invoke `/travel-planner` manually, or attach `@.cursor/skills/travel-planner/skill.md` as context before execution.
+In Cursor chat, request with `@travel-planner`.
+
 ## Deliverables
 
 All deliverables are saved in the `_workspace/` directory:

@@ -24,7 +24,8 @@ An agent team harness for exam preparation: exam trend analysis, weakness diagno
 
 ## Usage
 
-Use Cursor chat with natural-language requests, invoke `/exam-prep` manually, or attach `@.cursor/skills/exam-prep/skill.md` as context before execution.
+In Cursor chat, request with `@exam-prep`.
+
 ## Deliverables
 
 All deliverables are saved in the `_workspace/` directory:

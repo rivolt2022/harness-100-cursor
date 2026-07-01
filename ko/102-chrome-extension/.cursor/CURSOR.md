@@ -32,13 +32,12 @@ Manifest V3 크롬 익스텐션을 **아키텍처 → background → UI → cont
 
 ## 사용법
 
-자연어, `/chrome-extension`, 또는 `@.cursor/skills/chrome-extension/skill.md`
+Cursor 채팅창에 `@chrome-extension`으로 요청한다.
 
 **예시**
 - "YouTube 페이지에 다크모드 토글 MV3 익스텐션 만들어줘"
 - "MV2 background page를 MV3로 마이그레이션해줘"
 - "Web Store 심사 거절됐어 — host_permissions 정당화 작성해줘"
-
 ## 산출물
 
 - `_workspace/00_input.md` ~ `05_extension_review.md`

@@ -24,7 +24,8 @@ An agent team harness that collaborates on test automation strategy development,
 
 ## Usage
 
-Use Cursor chat with natural-language requests, invoke `/test-automation` manually, or attach `@.cursor/skills/test-automation/skill.md` as context before execution.
+In Cursor chat, request with `@test-automation`.
+
 ## Deliverables
 
 All deliverables are stored in the `_workspace/` directory:

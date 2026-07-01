@@ -24,7 +24,8 @@ An internal audit report generation harness. An agent team collaborates to handl
 
 ## Usage
 
-Use Cursor chat with natural-language requests, invoke `/audit-report` manually, or attach `@.cursor/skills/audit-report/skill.md` as context before execution.
+In Cursor chat, request with `@audit-report`.
+
 ## Outputs
 
 All outputs are saved to the `_workspace/` directory:

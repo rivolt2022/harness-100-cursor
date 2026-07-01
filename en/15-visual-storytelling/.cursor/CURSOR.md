@@ -24,7 +24,8 @@ A harness where an agent team collaborates to produce visual storytelling: story
 
 ## Usage
 
-Use Cursor chat with natural-language requests, invoke `/visual-storytelling` manually, or attach `@.cursor/skills/visual-storytelling/skill.md` as context before execution.
+In Cursor chat, request with `@visual-storytelling`.
+
 ## Deliverables
 
 All deliverables are saved in the `_workspace/` directory:

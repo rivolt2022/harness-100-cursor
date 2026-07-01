@@ -24,7 +24,8 @@ Web scraping system construction: a harness in which an agent team collaborates 
 
 ## Usage
 
-Use Cursor chat with natural-language requests, invoke `/web-scraper` manually, or attach `@.cursor/skills/web-scraper/skill.md` as context before execution.
+In Cursor chat, request with `@web-scraper`.
+
 ## Deliverables
 
 All deliverables are stored in the `_workspace/` directory:

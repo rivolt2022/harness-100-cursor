@@ -24,7 +24,8 @@ API 클라이언트 SDK 생성: 스펙파싱→타입생성→클라이언트코
 
 ## 사용법
 
-Cursor 채팅에서 자연어 요청으로 실행하거나, `/api-client-generator`로 수동 호출하거나, `@.cursor/skills/api-client-generator/skill.md`를 컨텍스트로 첨부해 실행한다.
+Cursor 채팅창에 `@api-client-generator`으로 요청한다.
+
 ## 산출물
 
 모든 산출물은 `_workspace/` 디렉토리에 저장된다:

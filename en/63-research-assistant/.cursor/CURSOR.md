@@ -24,4 +24,4 @@ An agent team harness for academic research assistance.
 
 ## Usage
 
-Use Cursor chat with natural-language requests, invoke `/research-assistant` manually, or attach `@.cursor/skills/research-assistant/skill.md` as context before execution.
+In Cursor chat, request with `@research-assistant`.

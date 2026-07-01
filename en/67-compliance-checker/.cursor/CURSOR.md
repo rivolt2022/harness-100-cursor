@@ -23,7 +23,8 @@ Regulatory compliance verification — an agent team collaborates to perform law
 
 ## Usage
 
-Use Cursor chat with natural-language requests, invoke `/compliance-checker` manually, or attach `@.cursor/skills/compliance-checker/skill.md` as context before execution.
+In Cursor chat, request with `@compliance-checker`.
+
 ## Deliverables
 
 All deliverables are saved in the `_workspace/` directory:

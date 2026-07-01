@@ -24,7 +24,8 @@ LLM application construction: a harness where an agent team collaborates to perf
 
 ## Usage
 
-Use Cursor chat with natural-language requests, invoke `/llm-app-builder` manually, or attach `@.cursor/skills/llm-app-builder/skill.md` as context before execution.
+In Cursor chat, request with `@llm-app-builder`.
+
 ## Outputs
 
 All outputs are stored in the `_workspace/` directory:

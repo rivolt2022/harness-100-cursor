@@ -24,7 +24,8 @@ An agent team harness that collaborates to design and implement data pipelines c
 
 ## Usage
 
-Use Cursor chat with natural-language requests, invoke `/data-pipeline` manually, or attach `@.cursor/skills/data-pipeline/skill.md` as context before execution.
+In Cursor chat, request with `@data-pipeline`.
+
 ## Deliverables
 
 All deliverables are stored in the `_workspace/` directory:

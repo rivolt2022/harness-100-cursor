@@ -24,7 +24,8 @@ A sales enablement pipeline where an agent team collaborates to produce: Custome
 
 ## Usage
 
-Use Cursor chat with natural-language requests, invoke `/sales-enablement` manually, or attach `@.cursor/skills/sales-enablement/skill.md` as context before execution.
+In Cursor chat, request with `@sales-enablement`.
+
 ## Deliverables
 
 All deliverables are saved in the `_workspace/` directory:

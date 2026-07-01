@@ -23,7 +23,8 @@ A harness where an agent team collaborates to deliver coding education: curricul
 
 ## Usage
 
-Use Cursor chat with natural-language requests, invoke `/coding-bootcamp` manually, or attach `@.cursor/skills/coding-bootcamp/skill.md` as context before execution.
+In Cursor chat, request with `@coding-bootcamp`.
+
 ## Deliverables
 
 All deliverables are saved in the `_workspace/` directory:

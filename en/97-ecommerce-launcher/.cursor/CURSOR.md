@@ -24,7 +24,8 @@ An e-commerce launch harness. An agent team collaborates to produce product plan
 
 ## Usage
 
-Use Cursor chat with natural-language requests, invoke `/ecommerce-launcher` manually, or attach `@.cursor/skills/ecommerce-launcher/skill.md` as context before execution.
+In Cursor chat, request with `@ecommerce-launcher`.
+
 ## Outputs
 
 All outputs are saved to the `_workspace/` directory:

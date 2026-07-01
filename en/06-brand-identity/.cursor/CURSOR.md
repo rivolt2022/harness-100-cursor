@@ -26,7 +26,8 @@ A harness where an agent team collaborates to design brand identity from naming 
 
 ## Usage
 
-Use Cursor chat with natural-language requests, invoke `/brand-identity` manually, or attach `@.cursor/skills/brand-identity/skill.md` as context before execution.
+In Cursor chat, request with `@brand-identity`.
+
 ## Deliverables
 
 All deliverables are saved to the `_workspace/` directory:

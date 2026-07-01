@@ -26,7 +26,8 @@ A harness where an agent team collaborates to produce SNS content calendars, pos
 
 ## Usage
 
-Use Cursor chat with natural-language requests, invoke `/social-media-manager` manually, or attach `@.cursor/skills/social-media-manager/skill.md` as context before execution.
+In Cursor chat, request with `@social-media-manager`.
+
 ## Deliverables
 
 All deliverables are saved in the `_workspace/` directory:

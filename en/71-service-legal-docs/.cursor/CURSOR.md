@@ -23,4 +23,4 @@ A service terms and legal document drafting agent team harness.
 
 ## Usage
 
-Use Cursor chat with natural-language requests, invoke `/service-legal-docs` manually, or attach `@.cursor/skills/service-legal-docs/skill.md` as context before execution.
+In Cursor chat, request with `@service-legal-docs`.

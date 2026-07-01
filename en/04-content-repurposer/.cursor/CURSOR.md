@@ -24,7 +24,8 @@ A harness where an agent team transforms a single source piece of content into m
 
 ## Usage
 
-Use Cursor chat with natural-language requests, invoke `/content-repurposer` manually, or attach `@.cursor/skills/content-repurposer/skill.md` as context before execution.
+In Cursor chat, request with `@content-repurposer`.
+
 ## Deliverables
 
 All deliverables are saved in the `_workspace/` directory:

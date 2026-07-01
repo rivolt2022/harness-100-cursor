@@ -24,7 +24,8 @@ A harness where an agent team collaborates to design, build, monitor, and optimi
 
 ## Usage
 
-Use Cursor chat with natural-language requests, invoke `/cicd-pipeline` manually, or attach `@.cursor/skills/cicd-pipeline/skill.md` as context before execution.
+In Cursor chat, request with `@cicd-pipeline`.
+
 ## Artifacts
 
 All artifacts are saved in the `_workspace/` directory:

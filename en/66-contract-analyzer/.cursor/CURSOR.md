@@ -24,4 +24,4 @@ A contract analysis agent team harness.
 
 ## Usage
 
-Use Cursor chat with natural-language requests, invoke `/contract-analyzer` manually, or attach `@.cursor/skills/contract-analyzer/skill.md` as context before execution.
+In Cursor chat, request with `@contract-analyzer`.

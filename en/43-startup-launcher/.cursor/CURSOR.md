@@ -24,7 +24,8 @@ Startup launch planning: a harness where an agent team collaborates to perform m
 
 ## Usage
 
-Use Cursor chat with natural-language requests, invoke `/startup-launcher` manually, or attach `@.cursor/skills/startup-launcher/skill.md` as context before execution.
+In Cursor chat, request with `@startup-launcher`.
+
 ## Outputs
 
 All outputs are stored in the `_workspace/` directory:

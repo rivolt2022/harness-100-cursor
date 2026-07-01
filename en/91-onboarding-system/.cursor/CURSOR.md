@@ -24,7 +24,8 @@ New hire onboarding: A harness where an agent team collaborates to generate ever
 
 ## Usage
 
-Use Cursor chat with natural-language requests, invoke `/onboarding-system` manually, or attach `@.cursor/skills/onboarding-system/skill.md` as context before execution.
+In Cursor chat, request with `@onboarding-system`.
+
 ## Outputs
 
 All outputs are saved to the `_workspace/` directory:

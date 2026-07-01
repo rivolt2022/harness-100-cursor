@@ -24,7 +24,8 @@ An agent team harness for preparing open source project launches covering code c
 
 ## Usage
 
-Use Cursor chat with natural-language requests, invoke `/open-source-launcher` manually, or attach `@.cursor/skills/open-source-launcher/skill.md` as context before execution.
+In Cursor chat, request with `@open-source-launcher`.
+
 ## Deliverables
 
 All deliverables are stored in the `_workspace/` directory:

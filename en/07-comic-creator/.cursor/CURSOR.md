@@ -26,7 +26,8 @@ A harness where an agent team collaborates to produce comics — from storyboard
 
 ## Usage
 
-Use Cursor chat with natural-language requests, invoke `/comic-creator` manually, or attach `@.cursor/skills/comic-creator/skill.md` as context before execution.
+In Cursor chat, request with `@comic-creator`.
+
 ## Deliverables
 
 All deliverables are saved to the `_workspace/` directory:

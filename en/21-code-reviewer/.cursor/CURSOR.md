@@ -24,7 +24,8 @@ A harness where an agent team collaborates to perform automated code review acro
 
 ## Usage
 
-Use Cursor chat with natural-language requests, invoke `/code-reviewer` manually, or attach `@.cursor/skills/code-reviewer/skill.md` as context before execution.
+In Cursor chat, request with `@code-reviewer`.
+
 ## Artifacts
 
 All artifacts are saved in the `_workspace/` directory:

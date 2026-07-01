@@ -24,7 +24,8 @@ Government funding proposal: a harness where an agent team collaborates to perfo
 
 ## Usage
 
-Use Cursor chat with natural-language requests, invoke `/gov-funding-plan` manually, or attach `@.cursor/skills/gov-funding-plan/skill.md` as context before execution.
+In Cursor chat, request with `@gov-funding-plan`.
+
 ## Outputs
 
 All outputs are stored in the `_workspace/` directory:

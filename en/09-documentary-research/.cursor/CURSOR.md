@@ -26,7 +26,8 @@ A harness where an agent team collaborates to produce documentary research, trea
 
 ## Usage
 
-Use Cursor chat with natural-language requests, invoke `/documentary-research` manually, or attach `@.cursor/skills/documentary-research/skill.md` as context before execution.
+In Cursor chat, request with `@documentary-research`.
+
 ## Deliverables
 
 All deliverables are saved in the `_workspace/` directory:

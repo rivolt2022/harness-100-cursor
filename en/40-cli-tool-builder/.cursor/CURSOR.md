@@ -24,7 +24,8 @@ CLI tool construction: a harness where an agent team collaborates to perform com
 
 ## Usage
 
-Use Cursor chat with natural-language requests, invoke `/cli-tool-builder` manually, or attach `@.cursor/skills/cli-tool-builder/skill.md` as context before execution.
+In Cursor chat, request with `@cli-tool-builder`.
+
 ## Outputs
 
 All outputs are stored in the `_workspace/` directory:

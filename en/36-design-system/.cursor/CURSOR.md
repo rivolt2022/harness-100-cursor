@@ -24,7 +24,8 @@ UI design system construction: a harness in which an agent team collaborates to 
 
 ## Usage
 
-Use Cursor chat with natural-language requests, invoke `/design-system` manually, or attach `@.cursor/skills/design-system/skill.md` as context before execution.
+In Cursor chat, request with `@design-system`.
+
 ## Deliverables
 
 All deliverables are stored in the `_workspace/` directory:

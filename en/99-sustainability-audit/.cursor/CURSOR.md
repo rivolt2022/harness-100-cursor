@@ -24,7 +24,8 @@ A sustainability audit harness. An agent team collaborates to produce environmen
 
 ## Usage
 
-Use Cursor chat with natural-language requests, invoke `/sustainability-audit` manually, or attach `@.cursor/skills/sustainability-audit/skill.md` as context before execution.
+In Cursor chat, request with `@sustainability-audit`.
+
 ## Outputs
 
 All outputs are saved to the `_workspace/` directory:

@@ -24,7 +24,8 @@ An agent team harness for foreign language learning: level testing, curriculum d
 
 ## Usage
 
-Use Cursor chat with natural-language requests, invoke `/language-tutor` manually, or attach `@.cursor/skills/language-tutor/skill.md` as context before execution.
+In Cursor chat, request with `@language-tutor`.
+
 ## Deliverables
 
 All deliverables are saved in the `_workspace/` directory:

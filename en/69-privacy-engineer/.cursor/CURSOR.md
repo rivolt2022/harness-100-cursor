@@ -23,4 +23,4 @@ A privacy engineering agent team harness.
 
 ## Usage
 
-Use Cursor chat with natural-language requests, invoke `/privacy-engineer` manually, or attach `@.cursor/skills/privacy-engineer/skill.md` as context before execution.
+In Cursor chat, request with `@privacy-engineer`.

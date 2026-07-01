@@ -24,7 +24,8 @@ A harness where an agent team collaborates to develop fullstack web apps through
 
 ## Usage
 
-Use Cursor chat with natural-language requests, invoke `/fullstack-webapp` manually, or attach `@.cursor/skills/fullstack-webapp/skill.md` as context before execution.
+In Cursor chat, request with `@fullstack-webapp`.
+
 ## Deliverables
 
 All deliverables are generated directly at the project root:

@@ -24,7 +24,8 @@ Data migration: a harness in which an agent team collaborates to perform source 
 
 ## Usage
 
-Use Cursor chat with natural-language requests, invoke `/data-migration` manually, or attach `@.cursor/skills/data-migration/skill.md` as context before execution.
+In Cursor chat, request with `@data-migration`.
+
 ## Deliverables
 
 All deliverables are stored in the `_workspace/` directory:

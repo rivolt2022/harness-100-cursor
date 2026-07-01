@@ -24,7 +24,7 @@ proposal clientanalysis→solutiondesign→price→differentiation→specialistp
 
 ## usage
 
-`/proposal-writer` skill , "proposal create it" specialistannual request.
+In Cursor chat, request with `@proposal-writer`.
 
 ## deliverable
 

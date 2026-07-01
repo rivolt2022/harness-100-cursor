@@ -24,7 +24,7 @@ hiring process: JDwriting→sourcing→screening→interview→assessment→offe
 
 ## usage
 
-`/hiring-pipeline` skill , "hiring process designplease do" specialistannual request.
+In Cursor chat, request with `@hiring-pipeline`.
 
 ## deliverable
 

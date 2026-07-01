@@ -24,7 +24,8 @@ A procurement document set generation harness. An agent team collaborates to pro
 
 ## Usage
 
-Use Cursor chat with natural-language requests, invoke `/procurement-docs` manually, or attach `@.cursor/skills/procurement-docs/skill.md` as context before execution.
+In Cursor chat, request with `@procurement-docs`.
+
 ## Outputs
 
 All outputs are saved to the `_workspace/` directory:

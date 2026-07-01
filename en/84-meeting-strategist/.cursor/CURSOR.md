@@ -24,7 +24,7 @@ meeting strategy document agenda itemstructuredesign→backgroundmaterialresearc
 
 ## usage
 
-`/meeting-strategist` skill , "meeting preparation material create it" specialistannual request.
+In Cursor chat, request with `@meeting-strategist`.
 
 ## deliverable
 

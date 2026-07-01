@@ -24,7 +24,8 @@ A real estate analysis harness. An agent team collaborates to produce market res
 
 ## Usage
 
-Use Cursor chat with natural-language requests, invoke `/real-estate-analyst` manually, or attach `@.cursor/skills/real-estate-analyst/skill.md` as context before execution.
+In Cursor chat, request with `@real-estate-analyst`.
+
 ## Outputs
 
 All outputs are saved to the `_workspace/` directory:

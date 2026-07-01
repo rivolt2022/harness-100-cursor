@@ -24,7 +24,8 @@ BI dashboard construction: a harness where an agent team collaborates to perform
 
 ## Usage
 
-Use Cursor chat with natural-language requests, invoke `/bi-dashboard` manually, or attach `@.cursor/skills/bi-dashboard/skill.md` as context before execution.
+In Cursor chat, request with `@bi-dashboard`.
+
 ## Outputs
 
 All outputs are stored in the `_workspace/` directory:

@@ -24,7 +24,8 @@ An agent team harness for performance optimization covering profiling, bottlenec
 
 ## Usage
 
-Use Cursor chat with natural-language requests, invoke `/performance-optimizer` manually, or attach `@.cursor/skills/performance-optimizer/skill.md` as context before execution.
+In Cursor chat, request with `@performance-optimizer`.
+
 ## Deliverables
 
 All deliverables are stored in the `_workspace/` directory:

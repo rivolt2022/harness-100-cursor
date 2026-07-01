@@ -24,7 +24,7 @@ wedding preparation comprehensive timelinedesign→budgetmanagementtable→vendo
 
 ## usage
 
-`/wedding-planner` skill , "wedding preparation " specialistannual request.
+In Cursor chat, request with `@wedding-planner`.
 
 ## deliverable
 

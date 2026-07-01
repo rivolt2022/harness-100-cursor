@@ -32,13 +32,7 @@ Kaggle/데이콘 같은 데이터 경진대회를 **CV 신뢰 → 재현 가능 
 
 ## 사용법
 
-Cursor 채팅에서 자연어 요청, `/mlops-competition`, 또는 `@.cursor/skills/mlops-competition/skill.md` 첨부.
-
-**예시 프롬프트**
-- "데이콘 탭ular 분류 대회 전략이랑 CV 설계해줘"
-- "CV 0.9인데 LB 0.78 — 누수 점검해줘"
-- "LightGBM+XGBoost 앙상블이랑 제출 검증 스크립트 만들어줘"
-- "데이콘 코드 제출용 파이프라인 정리해줘"
+Cursor 채팅창에 `@mlops-competition`으로 요청한다.
 
 ## 산출물
 

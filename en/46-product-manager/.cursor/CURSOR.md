@@ -24,7 +24,8 @@ A harness where an agent team collaborates to generate the full PM workflow: Roa
 
 ## Usage
 
-Use Cursor chat with natural-language requests, invoke `/product-manager` manually, or attach `@.cursor/skills/product-manager/skill.md` as context before execution.
+In Cursor chat, request with `@product-manager`.
+
 ## Deliverables
 
 All deliverables are saved in the `_workspace/` directory:

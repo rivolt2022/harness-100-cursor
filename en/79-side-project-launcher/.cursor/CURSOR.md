@@ -24,7 +24,7 @@ companyproject basis ideaverify→tech stack→MVP→developmentroadmap→launch
 
 ## usage
 
-`/side-project-launcher` skill , "companyproject basis " specialistannual request.
+In Cursor chat, request with `@side-project-launcher`.
 
 ## deliverable
 

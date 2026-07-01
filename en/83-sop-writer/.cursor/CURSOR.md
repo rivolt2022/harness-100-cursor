@@ -24,7 +24,7 @@ standard operating procedure(SOP) processanalysis→procedure document→checkli
 
 ## usage
 
-`/sop-writer` skill , "SOP create it" specialistannual request.
+In Cursor chat, request with `@sop-writer`.
 
 ## deliverable
 

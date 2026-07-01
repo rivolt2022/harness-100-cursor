@@ -24,7 +24,8 @@ A harness where an agent team collaborates to perform DB design from modeling th
 
 ## Usage
 
-Use Cursor chat with natural-language requests, invoke `/database-architect` manually, or attach `@.cursor/skills/database-architect/skill.md` as context before execution.
+In Cursor chat, request with `@database-architect`.
+
 ## Artifacts
 
 All artifacts are saved in the `_workspace/` directory:

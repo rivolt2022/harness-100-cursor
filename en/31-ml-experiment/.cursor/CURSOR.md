@@ -26,7 +26,8 @@ A harness where an agent team collaborates to perform the full ML experiment lif
 
 ## Usage
 
-Use Cursor chat with natural-language requests, invoke `/ml-experiment` manually, or attach `@.cursor/skills/ml-experiment/skill.md` as context before execution.
+In Cursor chat, request with `@ml-experiment`.
+
 ## Outputs
 
 All outputs are stored in the `_workspace/` directory:

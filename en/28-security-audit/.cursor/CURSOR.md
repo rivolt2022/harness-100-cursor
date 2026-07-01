@@ -26,7 +26,8 @@ An agent team harness for performing security audits covering vulnerability scan
 
 ## Usage
 
-Use Cursor chat with natural-language requests, invoke `/security-audit` manually, or attach `@.cursor/skills/security-audit/skill.md` as context before execution.
+In Cursor chat, request with `@security-audit`.
+
 ## Deliverables
 
 All deliverables are stored in the `_workspace/` directory:

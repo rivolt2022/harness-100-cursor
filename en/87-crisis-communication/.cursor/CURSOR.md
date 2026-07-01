@@ -24,7 +24,7 @@ crisis situation occurrence when situationidentify→messagestrategy→press rel
 
 ## usage
 
-`/crisis-communication` skill , "crisis response communication preparationplease do" specialistannual request.
+In Cursor chat, request with `@crisis-communication`.
 
 ## deliverable
 

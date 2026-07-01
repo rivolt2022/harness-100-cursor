@@ -24,7 +24,8 @@ A harness where an agent team collaborates to perform multilingual translation, 
 
 ## Usage
 
-Use Cursor chat with natural-language requests, invoke `/translation-localization` manually, or attach `@.cursor/skills/translation-localization/skill.md` as context before execution.
+In Cursor chat, request with `@translation-localization`.
+
 ## Deliverables
 
 All deliverables are saved in the `_workspace/` directory:

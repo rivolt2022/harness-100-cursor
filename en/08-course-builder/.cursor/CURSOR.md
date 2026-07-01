@@ -26,7 +26,8 @@ A harness where an agent team collaborates to produce online courses from curric
 
 ## Usage
 
-Use Cursor chat with natural-language requests, invoke `/course-builder` manually, or attach `@.cursor/skills/course-builder/skill.md` as context before execution.
+In Cursor chat, request with `@course-builder`.
+
 ## Deliverables
 
 All deliverables are saved to the `_workspace/` directory:

@@ -24,7 +24,8 @@ An agent team harness for transforming legacy codebases into modern architecture
 
 ## Usage
 
-Use Cursor chat with natural-language requests, invoke `/legacy-modernizer` manually, or attach `@.cursor/skills/legacy-modernizer/skill.md` as context before execution.
+In Cursor chat, request with `@legacy-modernizer`.
+
 ## Deliverables
 
 All deliverables are stored in the `_workspace/` directory:

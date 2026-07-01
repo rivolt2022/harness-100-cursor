@@ -24,7 +24,8 @@ Build a customer support system: an agent team collaborates to produce FAQ, resp
 
 ## Usage
 
-Use Cursor chat with natural-language requests, invoke `/customer-support` manually, or attach `@.cursor/skills/customer-support/skill.md` as context before execution.
+In Cursor chat, request with `@customer-support`.
+
 ## Deliverables
 
 All deliverables are saved in the `_workspace/` directory:

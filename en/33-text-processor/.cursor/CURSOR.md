@@ -24,7 +24,8 @@ Text processing pipeline: a harness in which an agent team collaborates to trans
 
 ## Usage
 
-Use Cursor chat with natural-language requests, invoke `/text-processor` manually, or attach `@.cursor/skills/text-processor/skill.md` as context before execution.
+In Cursor chat, request with `@text-processor`.
+
 ## Deliverables
 
 All deliverables are stored in the `_workspace/` directory:

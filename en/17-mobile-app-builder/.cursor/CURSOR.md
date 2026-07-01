@@ -24,7 +24,8 @@ A harness where an agent team collaborates to perform UI/UX design, native code 
 
 ## Usage
 
-Use Cursor chat with natural-language requests, invoke `/mobile-app-builder` manually, or attach `@.cursor/skills/mobile-app-builder/skill.md` as context before execution.
+In Cursor chat, request with `@mobile-app-builder`.
+
 ## Deliverables
 
 All deliverables are stored in the `_workspace/` directory:

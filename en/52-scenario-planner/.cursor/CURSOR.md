@@ -26,7 +26,8 @@ An agent team harness that defines key variables in uncertain environments, cons
 
 ## Usage
 
-Use Cursor chat with natural-language requests, invoke `/scenario-planner` manually, or attach `@.cursor/skills/scenario-planner/skill.md` as context before execution.
+In Cursor chat, request with `@scenario-planner`.
+
 ## Deliverables
 
 All deliverables are saved in the `_workspace/` directory:

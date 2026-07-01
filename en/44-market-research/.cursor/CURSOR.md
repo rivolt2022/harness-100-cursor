@@ -24,7 +24,8 @@ Market research: a harness where an agent team collaborates to perform industry 
 
 ## Usage
 
-Use Cursor chat with natural-language requests, invoke `/market-research` manually, or attach `@.cursor/skills/market-research/skill.md` as context before execution.
+In Cursor chat, request with `@market-research`.
+
 ## Outputs
 
 All outputs are stored in the `_workspace/` directory:

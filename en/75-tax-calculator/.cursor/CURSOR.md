@@ -23,4 +23,4 @@ A tax calculation agent team harness.
 
 ## Usage
 
-Use Cursor chat with natural-language requests, invoke `/tax-calculator` manually, or attach `@.cursor/skills/tax-calculator/skill.md` as context before execution.
+In Cursor chat, request with `@tax-calculator`.

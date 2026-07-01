@@ -24,4 +24,4 @@
 
 ## 사용법
 
-Cursor 채팅에서 자연어 요청으로 실행하거나, `/personal-branding`로 수동 호출하거나, `@.cursor/skills/personal-branding/skill.md`를 컨텍스트로 첨부해 실행한다.
+Cursor 채팅창에 `@personal-branding`으로 요청한다.

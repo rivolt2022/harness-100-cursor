@@ -24,7 +24,7 @@ project risk managementversus: riskidentification→probability·impactassessmen
 
 ## usage
 
-`/risk-register` skill , "project risk managementversus create it" specialistannual request.
+In Cursor chat, request with `@risk-register`.
 
 ## deliverable
 

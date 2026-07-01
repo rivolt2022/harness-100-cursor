@@ -23,4 +23,4 @@ A fitness program design agent team harness.
 
 ## Usage
 
-Use Cursor chat with natural-language requests, invoke `/fitness-program` manually, or attach `@.cursor/skills/fitness-program/skill.md` as context before execution.
+In Cursor chat, request with `@fitness-program`.

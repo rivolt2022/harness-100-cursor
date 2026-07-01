@@ -24,7 +24,8 @@ API client SDK generation: a harness in which an agent team collaborates to perf
 
 ## Usage
 
-Use Cursor chat with natural-language requests, invoke `/api-client-generator` manually, or attach `@.cursor/skills/api-client-generator/skill.md` as context before execution.
+In Cursor chat, request with `@api-client-generator`.
+
 ## Deliverables
 
 All deliverables are stored in the `_workspace/` directory:

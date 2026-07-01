@@ -24,4 +24,4 @@ An agent team harness for creating Architecture Decision Records (ADRs).
 
 ## Usage
 
-Use Cursor chat with natural-language requests, invoke `/adr-writer` manually, or attach `@.cursor/skills/adr-writer/skill.md` as context before execution.
+In Cursor chat, request with `@adr-writer`.

@@ -24,7 +24,8 @@ An academic paper writing harness. An agent team collaborates to produce researc
 
 ## Usage
 
-Use Cursor chat with natural-language requests, invoke `/academic-paper` manually, or attach `@.cursor/skills/academic-paper/skill.md` as context before execution.
+In Cursor chat, request with `@academic-paper`.
+
 ## Outputs
 
 All outputs are saved to the `_workspace/` directory:

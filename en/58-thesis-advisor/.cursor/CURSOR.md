@@ -24,7 +24,8 @@ An agent team harness for thesis writing: topic selection, literature review, me
 
 ## Usage
 
-Use Cursor chat with natural-language requests, invoke `/thesis-advisor` manually, or attach `@.cursor/skills/thesis-advisor/skill.md` as context before execution.
+In Cursor chat, request with `@thesis-advisor`.
+
 ## Deliverables
 
 All deliverables are saved in the `_workspace/` directory:

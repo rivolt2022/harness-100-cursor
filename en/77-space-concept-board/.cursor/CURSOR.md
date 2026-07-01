@@ -24,7 +24,8 @@ A harness where an agent team collaborates to generate style analysis, moodboard
 
 ## Usage
 
-Use Cursor chat with natural-language requests, invoke `/space-concept-board` manually, or attach `@.cursor/skills/space-concept-board/skill.md` as context before execution.
+In Cursor chat, request with `@space-concept-board`.
+
 ## Deliverables
 
 All deliverables are saved in the `_workspace/` directory:

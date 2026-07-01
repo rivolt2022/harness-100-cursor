@@ -26,7 +26,7 @@ technical document writing structuredesign→→diagram→review→versionmanage
 
 ## usage
 
-`/technical-writer` skill , "technical document writingplease do" specialistannual request.
+In Cursor chat, request with `@technical-writer`.
 
 ## deliverable
 

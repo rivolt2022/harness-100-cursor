@@ -24,7 +24,8 @@ An agent team harness that collaborates to generate incident postmortem reports.
 
 ## Usage
 
-Use Cursor chat with natural-language requests, invoke `/incident-postmortem` manually, or attach `@.cursor/skills/incident-postmortem/skill.md` as context before execution.
+In Cursor chat, request with `@incident-postmortem`.
+
 ## Deliverables
 
 All deliverables are stored in the `_workspace/` directory:

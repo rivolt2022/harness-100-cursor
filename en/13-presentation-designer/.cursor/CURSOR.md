@@ -24,7 +24,8 @@ A harness where an agent team collaborates to produce presentations: planning, s
 
 ## Usage
 
-Use Cursor chat with natural-language requests, invoke `/presentation-designer` manually, or attach `@.cursor/skills/presentation-designer/skill.md` as context before execution.
+In Cursor chat, request with `@presentation-designer`.
+
 ## Deliverables
 
 All deliverables are saved in the `_workspace/` directory:

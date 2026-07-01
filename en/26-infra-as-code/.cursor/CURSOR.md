@@ -24,7 +24,8 @@ An agent team harness for Infrastructure as Code (IaC) design and implementation
 
 ## Usage
 
-Use Cursor chat with natural-language requests, invoke `/infra-as-code` manually, or attach `@.cursor/skills/infra-as-code/skill.md` as context before execution.
+In Cursor chat, request with `@infra-as-code`.
+
 ## Deliverables
 
 All deliverables are stored in the `_workspace/` directory:

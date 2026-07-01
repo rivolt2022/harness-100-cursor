@@ -20,7 +20,8 @@ A harness where an agent team collaborates to produce YouTube video content thro
 
 ## Usage
 
-Use Cursor chat with natural-language requests, invoke `/youtube-production` manually, or attach `@.cursor/skills/youtube-production/skill.md` as context before execution.
+In Cursor chat, request with `@youtube-production`.
+
 ## Deliverables
 
 All deliverables are saved in the `_workspace/` directory:

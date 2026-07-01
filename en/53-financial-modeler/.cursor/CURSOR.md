@@ -26,7 +26,8 @@ A harness where an agent team collaborates to produce the full financial modelin
 
 ## Usage
 
-Use Cursor chat with natural-language requests, invoke `/financial-modeler` manually, or attach `@.cursor/skills/financial-modeler/skill.md` as context before execution.
+In Cursor chat, request with `@financial-modeler`.
+
 ## Deliverables
 
 All deliverables are saved in the `_workspace/` directory:
